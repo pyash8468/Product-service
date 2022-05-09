@@ -35,7 +35,6 @@ public class ProductService {
            productRepo.save(product);
            return product;
     }
-
 //Generating Id
     public int maxId(){
       return   productRepo.findAll().size() +1;
